@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr-CA">
+<head>
+<meta charset="UTF-8">
+<title>TEF B2 – Travail (Canada)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Entraînement TEF B2 – Travail 🇨🇦</h1>
+
+<section>
+<h2>🎧 Compréhension Orale</h2>
+
+<audio controls>
+<source src="audio1.mp3" type="audio/mpeg">
+</audio>
+
+<p><strong>Question :</strong> Pourquoi l’employé appelle-t-il son supérieur ?</p>
+
+<button onclick="check('a')">a) Pour demander un congé</button>
+<button onclick="check('b')">b) Pour résoudre un problème au travail</button>
+<button onclick="check('c')">c) Pour changer d’entreprise</button>
+
+<p id="result"></p>
+</section>
+
+<section>
+<h2>🗣️ Expression Orale</h2>
+
+<p><strong>Sujet :</strong><br>
+Pensez-vous que le télétravail améliore la productivité au Canada ?
+</p>
+
+<p>⏱️ Préparation : 1 minute<br>
+🎙️ Parlez : 2 minutes</p>
+
+<button onclick="startRec()">Commencer</button>
+<button onclick="stopRec()">Arrêter</button>
+
+<audio id="play" controls></audio>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
